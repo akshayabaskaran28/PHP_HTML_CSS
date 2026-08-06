@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Details Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+<h2>Student Details Form</h2>
+
+<form action="display.php" method="POST">
+
+<label>Student Name</label>
+<input type="text" name="name" required>
+
+<label>Register Number</label>
+<input type="text" name="regno" required>
+
+<label>Department</label>
+<input type="text" name="department" required>
+
+<label>Year</label>
+<select name="year" required>
+<option value="">Select Year</option>
+<option>First Year</option>
+<option>Second Year</option>
+<option>Third Year</option>
+<option>Fourth Year</option>
+</select>
+
+<label>Email</label>
+<input type="email" name="email" required>
+
+<label>Mobile Number</label>
+<input type="text" name="mobile" required>
+
+<input type="submit" value="Submit">
+
+</form>
+
+</div>
+
+</body>
+</html>
