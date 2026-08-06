@@ -1,0 +1,136 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#f4f6f9;
+}
+
+/* Header */
+header{
+    background:#0d6efd;
+    color:white;
+    text-align:center;
+    padding:25px;
+}
+
+header h1{
+    font-size:38px;
+}
+
+/* Navigation */
+nav{
+    background:#084298;
+    text-align:center;
+    padding:15px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:20px;
+    font-size:18px;
+}
+
+nav a:hover{
+    color:yellow;
+}
+
+/* Banner */
+.banner{
+    background:#007bff;
+    color:white;
+    text-align:center;
+    padding:60px;
+}
+
+.banner h2{
+    font-size:40px;
+}
+
+.banner p{
+    font-size:20px;
+    margin-top:10px;
+}
+
+/* Container */
+.container{
+    width:90%;
+    margin:auto;
+    padding:40px 0;
+}
+
+.course,.trainers,.contact{
+    background:white;
+    padding:25px;
+    margin-bottom:30px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,.2);
+}
+
+.course h2,.trainers h2,.contact h2{
+    color:#0d6efd;
+    margin-bottom:20px;
+}
+
+/* Table */
+table{
+    width:100%;
+    border-collapse:collapse;
+}
+
+table,th,td{
+    border:1px solid #ccc;
+}
+
+th{
+    background:#0d6efd;
+    color:white;
+}
+
+th,td{
+    padding:12px;
+}
+
+/* Trainer Cards */
+.cards{
+    display:flex;
+    justify-content:space-around;
+    gap:20px;
+}
+
+.card{
+    width:45%;
+    text-align:center;
+    background:#eef5ff;
+    border-radius:10px;
+    padding:20px;
+}
+
+.card img{
+    width:150px;
+    border-radius:50%;
+    margin-bottom:15px;
+}
+
+.card h3{
+    color:#0d6efd;
+    margin-bottom:10px;
+}
+
+/* Contact */
+.contact p{
+    margin:10px 0;
+    font-size:18px;
+}
+
+/* Footer */
+footer{
+    background:#222;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
