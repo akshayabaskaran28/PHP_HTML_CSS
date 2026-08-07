@@ -1,0 +1,51 @@
+body{
+font-family:Arial;
+background:#f3e8ff;
+}
+
+.container{
+width:450px;
+margin:40px auto;
+background:white;
+padding:25px;
+border-radius:10px;
+box-shadow:0 0 10px gray;
+}
+
+h2{
+text-align:center;
+color:#6a1b9a;
+}
+
+label{
+font-weight:bold;
+}
+
+input{
+width:100%;
+padding:10px;
+margin:10px 0;
+}
+
+input[type=submit]{
+background:#6a1b9a;
+color:white;
+border:none;
+cursor:pointer;
+}
+
+table{
+width:100%;
+margin-top:20px;
+border-collapse:collapse;
+}
+
+table,th,td{
+border:1px solid #999;
+padding:10px;
+}
+
+th{
+background:#6a1b9a;
+color:white;
+}

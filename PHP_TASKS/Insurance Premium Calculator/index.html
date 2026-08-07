@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Life Insurance Premium Calculator</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>SecureLife Insurance</h1>
+    <p>Your Future. Our Protection.</p>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">Policies</a>
+    <a href="#">Premium</a>
+    <a href="#">Contact</a>
+</nav>
+
+<section class="banner">
+    <h2>Insurance Premium Calculator</h2>
+    <p>Get your premium amount instantly.</p>
+</section>
+
+<div class="container">
+
+<h2>Policy Details</h2>
+
+<form action="insurance.php" method="POST">
+
+<label>Applicant Name</label>
+<input type="text" name="name" required>
+
+<label>Age</label>
+<input type="number" name="age" min="18" max="70" required>
+
+<label>Policy Term (Years)</label>
+<select name="term" required>
+<option value="">Select Term</option>
+<option value="10">10 Years</option>
+<option value="20">20 Years</option>
+<option value="30">30 Years</option>
+</select>
+
+<label>Coverage Amount (₹)</label>
+<select name="coverage" required>
+<option value="">Select Coverage</option>
+<option value="500000">₹5,00,000</option>
+<option value="1000000">₹10,00,000</option>
+<option value="2000000">₹20,00,000</option>
+</select>
+
+<input type="submit" value="Calculate Premium">
+
+</form>
+
+</div>
+
+<footer>
+
+<p>© 2026 SecureLife Insurance Company</p>
+
+</footer>
+
+</body>
+</html>
