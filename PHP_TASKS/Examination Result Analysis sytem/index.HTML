@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Examination Result Analysis</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+<h1>ABC College</h1>
+<p>Examination Result Analysis System</p>
+</header>
+
+<nav>
+<a href="#">Home</a>
+<a href="#">Students</a>
+<a href="#">Results</a>
+<a href="#">Contact</a>
+</nav>
+
+<div class="container">
+
+<h2>Student Result Form</h2>
+
+<form action="result.php" method="post">
+
+<label>Student Name</label>
+<input type="text" name="name" required>
+
+<label>Register Number</label>
+<input type="text" name="regno" required>
+
+<label>Department</label>
+<input type="text" name="department" required>
+
+<label>Marks (Out of 100)</label>
+
+<input type="number" name="m1" placeholder="Subject 1" required>
+<input type="number" name="m2" placeholder="Subject 2" required>
+<input type="number" name="m3" placeholder="Subject 3" required>
+<input type="number" name="m4" placeholder="Subject 4" required>
+<input type="number" name="m5" placeholder="Subject 5" required>
+
+<input type="submit" value="Analyze Result">
+
+</form>
+
+</div>
+
+<footer>
+© 2026 ABC College | Examination Result System
+</footer>
+
+</body>
+</html>
