@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Parent–Teacher Meeting Registration</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+<h1>ABC Public School</h1>
+<p>Parent–Teacher Meeting Registration System</p>
+</header>
+
+<nav>
+<a href="#">Home</a>
+<a href="#">Teachers</a>
+<a href="#">Meetings</a>
+<a href="#">Contact</a>
+</nav>
+
+<div class="container">
+
+<h2>Meeting Registration Form</h2>
+
+<form action="meeting.php" method="post">
+
+<label>Parent Name</label>
+<input type="text" name="parent" required>
+
+<label>Student Name</label>
+<input type="text" name="student" required>
+
+<label>Class</label>
+<input type="text" name="class" required>
+
+<label>Teacher Name</label>
+<input type="text" name="teacher" required>
+
+<label>Select Meeting Date</label>
+<input type="date" name="date" required>
+
+<label>Select Time Slot</label>
+<select name="slot" required>
+<option value="">Choose Time</option>
+<option>09:00 AM - 09:30 AM</option>
+<option>09:30 AM - 10:00 AM</option>
+<option>10:00 AM - 10:30 AM</option>
+<option>10:30 AM - 11:00 AM</option>
+<option>11:00 AM - 11:30 AM</option>
+</select>
+
+<input type="submit" value="Book Appointment">
+
+</form>
+
+</div>
+
+<footer>
+© 2026 ABC Public School | Parent–Teacher Meeting Portal
+</footer>
+
+</body>
+</html>
